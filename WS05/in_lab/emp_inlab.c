@@ -1,10 +1,10 @@
 /*
-Name:
-Student number:
-Email:
-Workshop:
+Name: Saihong Xiao
+Student number: 140777178
+Email: sxiao15@myseneca.ca
+Workshop: w05
 Section:
-Date:
+Date: 06/14/2018
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -12,7 +12,7 @@ Date:
 #include <stdio.h>
 
 // Define Number of Employees "SIZE" to be 2
-		
+#define SIZE 2		
 
 // Declare Struct Employee 
 
@@ -20,11 +20,16 @@ Date:
 /* main program */
 int main(void) {
 
-	int option = 0;
+	int option = 0, age;
+	double salary;
 
 	// Declare a struct Employee array "emp" with SIZE elements 
 	// and initialize all elements to zero
-    
+        struct Employee{
+		int Age; 
+		int ID;
+		double Salary;
+	}
     
 	printf("---=== EMPLOYEE DATA ===---\n\n");
 
